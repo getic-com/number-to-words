@@ -12,7 +12,11 @@ class GermanCurrencyTransformerTest extends CurrencyTransformerTest
     public function providerItConvertsMoneyAmountToWords(): array
     {
         return [
-            [600, 'EUR', 'sechs Euro']
+            [600, 'EUR', 'sechs Euro'],
+            [100, 'MXN', 'ein Mexikanischer Peso'],
+            [600, 'MXN', 'sechs Mexikanische Pesos'],
+            [150, 'MXN', 'ein Mexikanischer Peso und fünfzig Centavos'],
+            [201, 'MXN', 'zwei Mexikanische Pesos und ein Centavo'],
         ];
     }
 }

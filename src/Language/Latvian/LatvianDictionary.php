@@ -51,6 +51,7 @@ class LatvianDictionary implements Dictionary
 
     public static array $currencyNames = [
         'EUR' => [['eiro', 'eiro', 'eiro'], ['cents', 'centi', 'centi']],
+        'MXN' => [['peso', 'peso', 'peso'], ['centavo', 'centavo', 'centavo']],
         'USD' => [['dolārs', 'dolāri', 'dolāri'], ['cents', 'centi', 'centi']],
     ];
 

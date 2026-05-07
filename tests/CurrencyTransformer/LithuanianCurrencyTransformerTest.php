@@ -100,6 +100,11 @@ class LithuanianCurrencyTransformerTest extends CurrencyTransformerTest
             [35174315119, 'LT', 'trys šimtai penkiasdešimt vienas milijonas septyni šimtai keturiasdešimt trys tūkstančiai šimtas penkiasdešimt vienas litas ir devyniolika lito centų'],
             [935174315119, 'LT', 'devyni bilijonai trys šimtai penkiasdešimt vienas milijonas septyni šimtai keturiasdešimt trys tūkstančiai šimtas penkiasdešimt vienas litas ir devyniolika lito centų'],
             [222935174315119, 'LT', 'du trilijonai du šimtai dvidešimt devyni bilijonai trys šimtai penkiasdešimt vienas milijonas septyni šimtai keturiasdešimt trys tūkstančiai šimtas penkiasdešimt vienas litas ir devyniolika lito centų'],
+            [100, 'MXN', 'vienas pesas ir nulis centavų'],
+            [200, 'MXN', 'du pesai ir nulis centavų'],
+            [500, 'MXN', 'penki pesai ir nulis centavų'],
+            [150, 'MXN', 'vienas pesas ir penkiasdešimt centavų'],
+            [726, 'MXN', 'septyni pesai ir dvidešimt šeši centavai'],
         ];
     }
 }

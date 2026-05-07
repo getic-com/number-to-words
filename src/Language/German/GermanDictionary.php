@@ -107,6 +107,7 @@ class GermanDictionary implements Dictionary
         'ISK' => [['isländische Krone','isländische Kronen'], ['aurar']],
         'JPY' => [['Yen'], ['sen']],
         'MKD' => [['Mazedonischer Denar'], ['deni']],
+        'MXN' => [['Mexikanischer Peso', 'Mexikanische Pesos'], ['Centavo', 'Centavos']],
         'NOK' => [['Norwegische Krone','Norwegische Kronen'], ['Øre']],
         'PLN' => [['Złoty'], ['Groschen']],
         'RUB' => [['Russischer Rubel'], ['Kopeke','Kopeken']],

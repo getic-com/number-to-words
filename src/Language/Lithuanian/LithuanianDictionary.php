@@ -73,6 +73,7 @@ class LithuanianDictionary implements Dictionary
     public static array $currencyNames = [
         'EUR' => [['euras', 'eurų', 'eurai'], ['euro centas', 'euro centų', 'euro centai']],
         'LT' => [['litas', 'litų', 'litai'], ['lito centas', 'lito centų', 'lito centai']],
+        'MXN' => [['pesas', 'pesų', 'pesai'], ['centavas', 'centavų', 'centavai']],
     ];
 
     public function getAnd(): string

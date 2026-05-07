@@ -44,6 +44,11 @@ class EnglishCurrencyTransformerTest extends CurrencyTransformerTest
             [247314700, 'MYR', 'two million four hundred seventy-three thousand one hundred forty-seven ringgits'],
             [980000000, 'MYR', 'nine million eight hundred thousand ringgits'],
             [-135522300, 'MYR', 'minus one million three hundred fifty-five thousand two hundred twenty-three ringgits'],
+            [100, 'MXN', 'one Mexican peso'],
+            [200, 'MXN', 'two Mexican pesos'],
+            [101, 'MXN', 'one Mexican peso one centavo'],
+            [150, 'MXN', 'one Mexican peso fifty centavos'],
+            [1099, 'MXN', 'ten Mexican pesos ninety-nine centavos'],
         ];
     }
 }
