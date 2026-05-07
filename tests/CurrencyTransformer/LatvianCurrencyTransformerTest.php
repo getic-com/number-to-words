@@ -100,6 +100,10 @@ class LatvianCurrencyTransformerTest extends CurrencyTransformerTest
             [35174315119, 'USD', 'trīs simti piecdesmit viens miljons septiņi simti četrdesmit trīs tūkstoši viens simts piecdesmit viens dolārs un deviņpadsmit centi'],
             [935174315119, 'USD', 'deviņi miljardi trīs simti piecdesmit viens miljons septiņi simti četrdesmit trīs tūkstoši viens simts piecdesmit viens dolārs un deviņpadsmit centi'],
             [222935174315119, 'USD', 'divi triljoni divi simti divdesmit deviņi miljardi trīs simti piecdesmit viens miljons septiņi simti četrdesmit trīs tūkstoši viens simts piecdesmit viens dolārs un deviņpadsmit centi'],
+            [100, 'MXN', 'viens peso un nulle centavo'],
+            [200, 'MXN', 'divi peso un nulle centavo'],
+            [150, 'MXN', 'viens peso un piecdesmit centavo'],
+            [726, 'MXN', 'septiņi peso un divdesmit seši centavo'],
         ];
     }
 }
